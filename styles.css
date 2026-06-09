@@ -1,0 +1,58 @@
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #111;
+}
+
+/* LINKS (removes blue default everywhere) */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* CTA BUTTON */
+.cta-btn {
+  background: #fff;
+  color: #000;
+  font-weight: 800;
+  border-radius: 50px;
+  padding: 14px 28px;
+  border: 2px solid #000;
+  display: inline-block;
+}
+
+.cta-btn:hover {
+  background: #000;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* FOOTER */
+footer {
+  background: #0b0b0b;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* FOOTER LOGO */
+.footer-logo {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* FOOTER NOTE */
+.footer-note {
+  color: rgba(255,255,255,0.7);
+  font-size: 12px;
+  margin-top: 20px;
+}
