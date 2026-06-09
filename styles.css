@@ -19,14 +19,13 @@ a {
 
 /* CTA BUTTON */
 .cta-btn {
-  display: inline-block;
-  padding: 14px 28px;
-  background: #ffffff;
-  color: #000000;
+  background: #fff;
+  color: #000;
   font-weight: 800;
   border-radius: 50px;
+  padding: 14px 28px;
   border: 2px solid #000;
-  transition: 0.25s ease;
+  display: inline-block;
 }
 
 .cta-btn:hover {
